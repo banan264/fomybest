@@ -17,4 +17,8 @@ module.exports = {
     autoprefixer: {},
   },
 }
+export default defineConfig({
+  base: '/fomybest/',
+  plugins: [react()],
+})
 ```
